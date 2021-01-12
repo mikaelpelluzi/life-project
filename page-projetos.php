@@ -3,7 +3,7 @@ $estiloPagina = 'main.css';
 require_once 'header.php';
 ?>
 
-<form action="#" class="container-alura formulario-pesquisa-paises">
+<form action="#" class="container-life formulario-pesquisa-paises">
     <h2>Conheça meus projetos</h2>
     <select name="ferramentas" id="paises">
         <option value="">--Selecione--</option>
@@ -36,7 +36,7 @@ $args = array(
 
 if ($query->have_posts()):
   echo '<main class="page-destinos">';
-  echo '<ul class="lista-destinos container-alura">';
+  echo '<ul class="lista-destinos container-life">';
   while($query->have_posts()): $query->the_post();
       echo '<li class="col-md-3 destinos">';
         the_post_thumbnail();
