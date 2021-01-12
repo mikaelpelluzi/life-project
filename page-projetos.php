@@ -6,7 +6,7 @@ require_once 'header.php';
 <form action="#" class="container-life formulario-pesquisa-paises">
     <h2>Conheça meus projetos</h2>
     <select name="ferramentas" id="paises">
-        <option value="">--Selecione--</option>
+        <option value="">-- Desenvolvido com --</option>
         <?php
             $ferramentas = get_terms(array('taxonomy' => 'ferramentas'));
             foreach($ferramentas as $ferramenta):?>
