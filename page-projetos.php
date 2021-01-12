@@ -1,5 +1,5 @@
 <?php
-$estiloPagina = 'projetos.css';
+$estiloPagina = 'main.css';
 require_once 'header.php';
 ?>
 

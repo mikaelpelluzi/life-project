@@ -1,5 +1,5 @@
 <?php
-$estiloPagina = 'sobre_nos.css';
+$estiloPagina = 'main.css';
 require_once 'header.php';
 
 if(have_posts()){
