@@ -6,14 +6,13 @@
   <title><?php bloginfo('name'); ?> </title>
   <?php wp_head() ?>
   <link rel="stylesheet" href="<?= get_template_directory_uri() . '/css/normalize.css' ?>">
-<link rel="stylesheet" href="<?= get_template_directory_uri() . '/css/bootstrap.css' ?>">
-<link rel="stylesheet" href="<?= get_template_directory_uri() . '/css/header.css' ?>">
-<link rel="stylesheet" href="<?= get_template_directory_uri() . '/css/' . $estiloPagina ?>">
-<link rel="stylesheet" href="<?= get_template_directory_uri() . '/css/footer.css' ?>">
+  <link rel="stylesheet" href="<?= get_template_directory_uri() . '/css/bootstrap.css' ?>">
+  <link rel="stylesheet" href="<?= get_template_directory_uri() . '/css/main.css' ?>">
 </head>
+
 <body <?php body_class(); ?> >
   <header class="site-header">
-    <div class="container-alura">
+    <div class="container-life">
       <?php  
         the_custom_logo();
       ?>
