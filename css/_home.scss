@@ -3,12 +3,15 @@
 
 .texto-banner-dinamico {
     text-align: center;
-    margin-top: calc(50vh - 7rem); }
-.texto-banner-dinamico span {
-    color: #FFF;
-    font-weight: 600;
-    font-size: 7rem; }
+    margin-top: calc(50vh - 7rem); 
 
+    span {
+        color: #FFF;
+        font-weight: 600;
+        font-size: 7rem; 
+    }
+
+}
 .imagem-banner {
     background: -o-linear-gradient(135deg, #000000 0%, #ffffff 74%);
     background: linear-gradient(315deg, #000000 0%, #ffffff 74%); }
