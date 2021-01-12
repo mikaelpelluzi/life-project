@@ -99,7 +99,7 @@ main {
 }
 
 .texto-banner-dinamico span {
-  color: #FFF;
+  color: #fa225b;
   font-weight: 600;
   font-size: 7rem;
 }
@@ -125,8 +125,8 @@ main {
   width: 100vw;
   height: 100vh;
   z-index: -1;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.65)));
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.95)));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.95) 100%);
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
