@@ -61,7 +61,7 @@ main {
 }
 
 .site-header .custom-logo {
-  width: 100%;
+  width: 60%;
   height: auto;
 }
 
@@ -90,7 +90,7 @@ main {
 }
 
 .site-header {
-  opacity: 0.88;
+  opacity: 0.80;
 }
 
 .texto-banner-dinamico {
@@ -545,15 +545,62 @@ main {
 
 .conteudo {
   margin: 0 3rem;
+  padding-bottom: 3rem;
   text-align: justify;
 }
 
+.conteudo h2 {
+  font-size: 2rem;
+  -webkit-margin-before: 0.3em;
+          margin-block-start: 0.3em;
+}
+
+.conteudo p {
+  font-size: 1rem;
+}
+
 footer {
-  background-color: #9996C3;
+  background-color: #000;
 }
 
 footer .container-life {
-  color: #0f0e19;
+  color: #fff;
   padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .custom-logo {
+  width: 50%;
+  max-width: 50%;
+  height: auto;
+}
+
+footer .email {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+}
+
+footer .whatsapp {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+}
+
+footer svg.bi.bi-envelope-fill:hover {
+  fill: red;
+}
+
+footer svg.bi.bi-whatsapp:hover {
+  fill: lime;
 }
 /*# sourceMappingURL=main.css.map */
