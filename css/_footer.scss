@@ -15,4 +15,24 @@ footer {
     max-width: 50%;
     height: auto;
   }
+
+  .email{
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+  }
+
+  .whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  svg.bi.bi-envelope-fill:hover{
+    fill: rgb(255, 0, 0)
+  }
+
+  svg.bi.bi-whatsapp:hover {
+    fill: rgb(0, 255, 0);
+  }
 }
